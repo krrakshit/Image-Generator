@@ -17,7 +17,7 @@ const API_KEY = process.env.API_KEY
 
 app.use(express.json())
 
-app.post('/generate-our-image-brotha', async (req, res)=> {
+app.post('/generate-image', async (req, res)=> {
     try {
         const response = await axios.post(invokeUrl, req.body, {
             headers: {
