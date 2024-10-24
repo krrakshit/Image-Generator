@@ -12,7 +12,7 @@ const Nvidia = () => {
     const [image, setImage] = useState(null)
 
 
-    const invokeUrl =  'http://localhost:1312/generate-our-image-brotha'
+    const invokeUrl =  'https://image-generator-bice-pi.vercel.app/'
 
     const generateImage = async () => {
 
