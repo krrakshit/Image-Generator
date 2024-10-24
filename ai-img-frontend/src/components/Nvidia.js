@@ -1,4 +1,4 @@
-import axios from 'axios'
+eimport axios from 'axios'
 import { useState } from 'react'
 import cowImage from '../assets/cow.png'
 import dancingCat from '../assets/cat-dancing.gif'
@@ -12,7 +12,7 @@ const Nvidia = () => {
     const [image, setImage] = useState(null)
 
 
-    const invokeUrl =  'https://image-generator-bice-pi.vercel.app/'
+    const invokeUrl =  'https://image-generator-bice-pi.vercel.app/generate-image'
 
     const generateImage = async () => {
 
