@@ -12,7 +12,7 @@ const Nvidia = () => {
     const [image, setImage] = useState(null)
 
 
-    const invokeUrl =  'https://image-generator-bice-pi.vercel.app/generate-image'
+    const invokeUrl =  'https://image-generator-seven-khaki.vercel.app/generate-image'
 
     const generateImage = async () => {
 
